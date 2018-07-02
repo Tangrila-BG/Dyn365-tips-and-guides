@@ -1,1 +1,1 @@
-# Dynamics 365 for Finance and Operations documentetation
+# Dynamics 365 for Finance and Operations tips and guides
