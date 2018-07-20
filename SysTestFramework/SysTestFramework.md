@@ -2,4 +2,4 @@
 
 ## Data in tests
 
-The while executing tests the SysTest Framework has its own state of the current database and cannot see the records in it by default, except the ones created during the test execution. So you need to setup your dependent data before running the test or in it, but before accessing it.
+Be careful with the selected company during the execution of the tests. If you try to find data in USMF company, but your test is running with DAT company, you won't be able to reach the data.
