@@ -1,8 +1,6 @@
-# Dynamics 365 source control
+# Dynamics 365 source control in GitHub
 
-## GitHub
-
-### Setting up a repo in GitHub
+## Setting up a repo
 
 Firstly, I'd like to point out that trying to do this with symbolic links is not worth the trouble and in the end you're more likely to fail than succeed. I wasted 2 days trying to make it work and in the end I went with the simpler option described below.
 
@@ -58,6 +56,6 @@ PackagesLocalDirectory/MyPrefix*/*
 
 Now you can get the status, commit, push and pull
 
-### Complex Repo with submodules
+## Complex Repo with submodules
 
-Using the [Setting up a repo in GitHub](#setting-up-a-repo-in-github) you can create multiple repos, then create a new repo that has a complex folder structure that in it has references to the other created repos
+Using the [Setting up a repo](#setting-up-a-repo) you can create multiple repos, then create a new repo that has a complex folder structure that in it has references to the other created repos
