@@ -7,7 +7,7 @@ Firstly, I'd like to point out that trying to do this with symbolic links is not
 * Create your repository using the github website, leave it empty. - optional
 * Go to the AOSService folder(the root of the PackagesLocalDirectory)
 * Optionally create a Projects folder where your solutions and projects will live
-* Open your favorite terminal in elevated.
+* Open your favorite terminal in elevated mode.
 * Type "git init"
 * Type "git remote add origin (url to your repo)"
 * Type "git fetch"
